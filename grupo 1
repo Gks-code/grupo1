@@ -1,0 +1,47 @@
+let Aluno = [ 'Artur Araujo Souza Brasil',
+              'Diego Dos Santos',
+               'Eduardo Barbosa Santos',
+               'Gabriel Januario',
+               'Gean luca Sucati Dos Santos',
+               'Giovana Hipolito Lopes',
+               'Graziele Vitoria',
+               'Guilherme Moreira Silveira',
+             'Guilherme Santos Oliveira',
+               
+            ] ;
+
+
+let novaArray = Aluno.splice (5,6,7,8 );
+console.log(novaArray);  
+
+
+novaArray.push('WILLYAN GABRIEL FLORES DE MATOS');
+console.log(novaArray);  
+
+
+novaArray.unshift('SAMUEL KRAKHECKE DIAS');
+console.log(novaArray);
+
+novaArray.shift('1');
+console.log(novaArray);
+
+novaArray.unshift('GABRIELLY FERREIRA DE ASSIS');
+console.log(novaArray);
+   
+novaArray.pop();
+console.log(novaArray);
+
+novaArray.unshift("NICOLAS VIEIRA DIAS RODRIGUES");
+console.log(novaArray);
+
+let novatabela=novaArray.splice(3);
+console.log(novatabela)
+
+novaArray.push('GIOVANNA AMORIM BALLES');
+console.log(novaArray);
+
+novaArray.unshift('INGRID FRANCK BITTENCOURT MOREIRA');
+console.log(novaArray);
+
+
+                
